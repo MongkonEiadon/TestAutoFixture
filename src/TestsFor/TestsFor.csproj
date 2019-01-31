@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net452;net472</TargetFrameworks>
+    <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>TestsFor</Title>
+    <Authors>Mongkon Eiadon</Authors>
+    <Copyright>Copyright (c) KeenProfile 2018 - 2019</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageReleaseNotes>UPDATED BY BUILD</PackageReleaseNotes>
+    <NoWarn>1701;1702;1705;1591</NoWarn>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture.AutoMoq" Version="4.6.0" />
+    <PackageReference Include="Moq" Version="4.10.1" />
+    <PackageReference Include="NUnit" Version="3.11.0" />
+  </ItemGroup>
+
+</Project>
