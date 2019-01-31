@@ -4,14 +4,14 @@
     <TargetFrameworks>netstandard2.0;net452;net472</TargetFrameworks>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Title>TestsFor</Title>
     <Authors>Mongkon Eiadon</Authors>
-    <Copyright>Copyright (c) KeenProfile 2018 - 2019</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageReleaseNotes>UPDATED BY BUILD</PackageReleaseNotes>
     <NoWarn>1701;1702;1705;1591</NoWarn>
     <Version>1.0.1</Version>
+    <PackageProjectUrl>https://github.com/MongkonEiadon/TestsFor</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
