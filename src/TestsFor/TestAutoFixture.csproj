@@ -10,8 +10,8 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageReleaseNotes>UPDATED BY BUILD</PackageReleaseNotes>
     <NoWarn>1701;1702;1705;1591</NoWarn>
-    <Version>1.0.1</Version>
-    <PackageProjectUrl>https://github.com/MongkonEiadon/TestsFor</PackageProjectUrl>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/MongkonEiadon/TestAutoFixture</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -2,9 +2,9 @@
 using AutoFixture;
 using NUnit.Framework;
 
-namespace TestsFor
+namespace TestFixture
 {
-    public abstract class TestFor<TSut> : Test
+    public abstract class TestAutoFixtureFor<TSut> : TestAutoFixture.TestAutoFixture
         where TSut : class
     {
         private Lazy<TSut> _lazySut;
