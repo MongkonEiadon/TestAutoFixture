@@ -49,7 +49,7 @@ namespace TestAutoFixture
         /// <typeparam name="T"></typeparam>
         /// <param name="args"></param>
         /// <returns></returns>
-        protected IMock<T> InjectMock<T>(params object[] args)
+        protected Mock<T> InjectMock<T>(params object[] args)
             where T : class
         {
             var mock = new Mock<T>(args);

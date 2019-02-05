@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net452;net472</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net472</TargetFrameworks>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>TestAutoFixture</Title>
     <Authors>Mongkon Eiadon</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
-    <PackageReleaseNotes>UPDATED BY BUILD</PackageReleaseNotes>
+    <PackageReleaseNotes>Update Can use Setup Normally</PackageReleaseNotes>
     <NoWarn>1701;1702;1705;1591</NoWarn>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageProjectUrl>https://github.com/MongkonEiadon/TestAutoFixture</PackageProjectUrl>
   </PropertyGroup>
 
