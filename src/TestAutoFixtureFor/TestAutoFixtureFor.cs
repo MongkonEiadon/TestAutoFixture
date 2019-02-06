@@ -4,27 +4,31 @@ using NUnit.Framework;
 
 namespace TestAutoFixture
 {
+    /// <summary>
+    /// Test AutoFixture for specific <see cref="TSut"/> to represent class under the test.
+    /// </summary>
+    /// <typeparam name="TSut"></typeparam>
     public abstract class TestAutoFixtureFor<TSut> : TestAutoFixture
         where TSut : class
     {
         private Lazy<TSut> _lazySut;
 
         /// <summary>
-        /// The real object that you want to test
+        /// The class under test
         /// </summary>
-        protected TSut Sut => _lazySut.Value;
+        protected TSut Cut => _lazySut.Value;
 
         [SetUp]
         public void SetUpTestsFor()
         {
-            _lazySut = new Lazy<TSut>(CreateSut);
+            _lazySut = new Lazy<TSut>(CreateCut);
         }
 
         /// <summary>
         /// Create real object
         /// </summary>
         /// <returns></returns>
-        protected virtual TSut CreateSut()
+        protected virtual TSut CreateCut()
         {
             return Fixture.Create<TSut>();
         }
