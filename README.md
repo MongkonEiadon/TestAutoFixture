@@ -1,8 +1,7 @@
 # TestAutoFixture
 Base framework for make easier unit tests framework with AutoFixture+Moq with System Under Tests concept.
 
-[![NuGet version](https://badge.fury.io/nu/TestAutoFixture.svg)](https://badge.fury.io/nu/TestAutoFixture)
-
+[![NuGet Badge](https://buildstats.info/nuget/TestAutoFixture?includePreReleases=true)](https://www.nuget.org/packages/TestAutoFixture)
 # Installing via NuGet
 
     Install-Package TestAutoFixture
