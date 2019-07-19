@@ -8,7 +8,7 @@ namespace TestAutoFixture
     /// Test AutoFixture for specific <see cref="TSut"/> to represent class under the test.
     /// </summary>
     /// <typeparam name="TSut"></typeparam>
-    public abstract class TestAutoFixtureFor<TSut> : TestAutoFixture
+    public abstract class TestFor<TSut> : Test
         where TSut : class
     {
         private Lazy<TSut> _lazySut;
@@ -16,7 +16,7 @@ namespace TestAutoFixture
         /// <summary>
         /// The class under test
         /// </summary>
-        protected TSut Cut => _lazySut.Value;
+        protected TSut Sut => _lazySut.Value;
 
         [SetUp]
         public void SetUpTestsFor()

@@ -10,7 +10,7 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageReleaseNotes>Using Class under Test (CUT)</PackageReleaseNotes>
     <NoWarn>1701;1702;1705;1591</NoWarn>
-    <Version>1.0.4</Version>
+    <Version>1.1.0</Version>
     <PackageProjectUrl>https://github.com/MongkonEiadon/TestAutoFixture</PackageProjectUrl>
   </PropertyGroup>
 

@@ -9,7 +9,7 @@ using NUnit.Framework;
 
 namespace TestAutoFixture
 {
-    public abstract class TestAutoFixture
+    public abstract class Test
     {
         /// <summary>
         /// Create a Fixture type of <see cref="T"/> with AutoFixture properties
